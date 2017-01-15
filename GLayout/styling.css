@@ -1,0 +1,132 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	min-width: 550px;
+}
+
+#headid {
+	list-style-type: none;
+	float:right;
+}
+#headid li {
+	float:left;
+	font-weight:thin;
+	margin-right: 15px;
+	font-size: 1em;
+	font-family: Calibri; 
+} 
+#headid li a:link {
+	color:rgb(111,110,110);
+}
+
+.addon {
+	background-color: #1c86ee;
+	padding:6px 12px 6px 12px;
+	border-radius: 3px;
+	margin-top:-5px;
+}
+.addon a:link{
+	color:white!important;
+}
+.addon a:link:hover{
+	text-decoration: none;
+}
+
+img.MyImage{
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+
+}
+#sbox {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.15em;
+    padding: 12px;
+    border-width: 0.005px;
+    border-style: solid;
+    border-color: grey;
+    box-shadow:2px 1px 4px 1.5px #cccccc;
+    width:470px;
+    margin-top: 40px;
+    font-family: Calibri;
+
+}
+#sbox:hover {
+	    box-shadow:2px 1px 4px 2.2px #cccccc;
+}
+#listB {
+	list-style-type: none;
+    text-align: center;   
+}
+#listB li {
+	display: inline-block;
+	float:none;
+	margin:5px;
+	font:rgb;
+}
+.sbutton {
+	padding:7px 11px 7px 11px;
+	border-width: 0px;
+	font-weight: bold;
+	font-size:0.8em;
+	color:rgb(125,124,124);
+	background-color: #f5f5f7;
+	padding: 11px 14px 11px 14px;
+	border-radius: 2px;
+
+}
+.sbutton:hover {
+	border-style: solid;
+	border-width: 0.15px;
+	border-color: #cccccc;
+
+}
+#langm {
+	float: none;
+	display: block;
+	font-size:.85em;
+	text-align: center;
+}
+#langm a:link {
+    color:darkblue;
+}
+#bottomLeft, #bottomRight{
+	list-style-type: none;
+
+}
+#bottomLeft li, #bottomRight li {
+	float:left;
+	margin: 0px 10px 10px 8px;
+	font-size:0.9em;
+
+}
+/*BOTTOM BAR LINKS ARE BLUE*/
+#bottomRight {
+    float:right;
+}
+#bottomLeft {
+    float:left;
+}
+a:link{
+	text-decoration: none;
+	color:black;
+}
+
+a:link:hover {
+	text-decoration:underline;
+}
+ul {
+	padding: 2px;
+}
+#bottomBar {
+	/* HERE IS THE PROBLEM, SETTING THE POSITION:FIXED MAKES THE BOTTOM-BAR OVERLAP CONTENT WHEN WINDOW HEIGHT IS VERY SMALL, THIS DOES NOT HAPPEN ON GOOGLE PAGE*/
+    position:fixed;
+	width:100%;
+	padding: 2px;
+	background-color: #f5f5f7;
+	height:50px;
+    bottom: 0px;
+
+}
