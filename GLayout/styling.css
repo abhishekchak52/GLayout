@@ -46,15 +46,15 @@ img.MyImage{
     padding: 12px;
     border-width: 0.005px;
     border-style: solid;
-    border-color: grey;
-    box-shadow:2px 1px 4px 1.5px #cccccc;
+    border-color: #CCC;
+    box-shadow:0px 2px 1px 0.5px #cccccc,0px 0.5px 1px 0.1px gray;
     width:470px;
     margin-top: 40px;
     font-family: Calibri;
 
 }
 #sbox:hover {
-	    box-shadow:2px 1px 4px 2.2px #cccccc;
+	    box-shadow:0px 2px 10px 1px #cccccc,0px 0.5px 1px 0.1px gray;
 }
 #listB {
 	list-style-type: none;
@@ -68,7 +68,7 @@ img.MyImage{
 }
 .sbutton {
 	padding:7px 11px 7px 11px;
-	border-width: 0px;
+	border :0.15px solid #FFF;
 	font-weight: bold;
 	font-size:0.8em;
 	color:rgb(125,124,124);
@@ -81,6 +81,7 @@ img.MyImage{
 	border-style: solid;
 	border-width: 0.15px;
 	border-color: #cccccc;
+	color: #000;
 
 }
 #langm {
@@ -130,3 +131,4 @@ ul {
     bottom: 0px;
 
 }
+
